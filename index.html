@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>FCC Wikipedia Search App</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/wiki.js"></script>
+  </head>
+<body>
+<header class="container"><h1>Search Wikipedia</h1><hr></header>
+<main class="container">
+  <div class="row">
+    <div class="col-xs-12">
+  <form>
+    <input type="text" name="search" placeholder="Your search goes here.">
+    <input type="submit" value="Search" id="submit">
+  </form>
+    </div>
+  </div>
+    <div class="row">
+      <div class="col-xs-12 text-center" id="random">
+        <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">(Or click here for a random article!)</a>
+      </div>
+    </div>
+  <div class="row">
+    <div class="col-xs-12" id="wikiList">
+    </div>
+  </div>
+</main>
+</body>
+</html>
